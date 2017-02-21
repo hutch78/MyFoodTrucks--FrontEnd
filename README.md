@@ -1,5 +1,7 @@
 # Myfoodtrucks
 
+This project is my first Angular 2 project, my first exposure to TypeScript and ES2015. This project will serve as the front end for a food trucks marketplace of sorts. This application will have food trucks each with an individual page complete with menus and events that the truck will be at
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 
 ## Development server
