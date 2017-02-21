@@ -1,0 +1,8 @@
+<ul class="events-list">
+  <li *ngFor="let event of events"
+      class="events-list__item">
+      {{event.title}}
+      <p>{{event.start_at | date:'medium' }}</p>
+      <p>{{event.description}}</p>
+  </li>
+</ul>

@@ -1,0 +1,30 @@
+import { MFTEvent } from '../models/mft-event';
+
+export const MFT_EVENTS: MFTEvent[] = [
+    {
+        'id': 1,
+        'title': 'Winter Garden Farmer\'s Market',
+        'start_at': '2017-01-12T22:00:00.000Z',
+        'end_at': '2017-01-12T23:00:00.000Z',
+        'description': 'Come join hundreds of Winter Garden natives at the Winter Garden Farmer\'s Market every second Saturday of each month. The food trucks park just east of the splash park. Be sure to get there early to beat the lines!',
+        'address_1': '2000 Court Ave',
+        'city': 'Winter Garden',
+        'state': 'FL',
+        'zip': '34787',
+        'created_at': '2016-12-30T21:24:19.066Z',
+        'updated_at': '2016-12-30T21:24:19.066Z'
+    },
+    {
+        'id': 2,
+        'title': 'Maple Bacon Coffee Porter Festival 2017',
+        'start_at': '2017-01-14T17:00:00.000Z',
+        'end_at': '2017-01-14T22:00:00.000Z',
+        'description': 'Funky Buddha’s epic Maple Bacon Coffee Porter returns again on January 14th, this time with a new beer festival format featuring over 100 beers to taste from Florida and beyond. Festival access will allow you to pre-purchase up to a case of Maple Bacon Coffee Porter with an option to purchase bottles the day of the event too. Any bottles left unsold will be released to the public on Sunday, January 15th.',
+        'address_1': '1201 NE 38TH STREET',
+        'city': 'Oakland Park',
+        'state': 'FL',
+        'zip': '33334',
+        'created_at': '2016-12-30T21:24:19.081Z',
+        'updated_at': '2016-12-30T21:24:19.081Z'
+    }
+]
